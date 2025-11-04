@@ -163,8 +163,9 @@
 }
 
 .messages { 
-  padding:14px; 
-  height: 300px; 
+  .messages { 
+  padding:12px; 
+  height: 240px;   /* reduced height */
   overflow-y:auto; 
   background:#fafcff; 
   display:flex; 
