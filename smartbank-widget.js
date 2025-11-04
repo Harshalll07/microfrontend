@@ -119,7 +119,7 @@
         .title { font-weight:600; margin-left:10px; font-size:15px; }
         .subtitle { font-size:12px; opacity:0.95; margin-top:2px; }
         .close { margin-left:auto; background:transparent; border:none; color:white; font-size:18px; cursor:pointer; }
-        .messages { padding:12px; height: 320px; overflow:auto; background: linear-gradient(180deg,#f7fbff, #ffffff); display:flex; flex-direction:column; gap:10px; }
+        .messages { padding:12px; height: 250px; overflow:auto; background: linear-gradient(180deg,#f7fbff, #ffffff); display:flex; flex-direction:column; gap:10px; }
         .msg { max-width: 85%; padding:10px 12px; border-radius:10px; }
         .msg.ai { background: #f0f8ff; align-self:flex-start; color:#042b48; }
         .msg.user { background: ${CONFIG.themeColor}; color: white; align-self:flex-end; }
